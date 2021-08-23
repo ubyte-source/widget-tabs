@@ -1,0 +1,14 @@
+div.tabs { border-top: 1px solid #cecece; border-bottom: 1px solid #cecece; }
+div.tabs ul li.tab { background-color: #f1f1f1; cursor: pointer; }
+div.tabs ul li.tab div.wrapper { padding: 16px; white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis; }
+div.tabs ul li.tab div.wrapper i { margin-right: 8px; }
+div.tabs ul li.tab:hover, div.tabs ul li.tab.active { background-color: #e5e2e2; }
+div.tabs ul li.tab:hover div.wrapper span.text, div.tabs ul li.tab.active div.wrapper span.text, div.tabs ul li.tab:hover i, div.tabs ul li.tab.active i { color: #397be6; }
+
+div.tabs.bordered { border-top: 1px solid #cecece; }
+div.tabs.bordered ul li.tab div.wrapper { border-left-color: #cecece; border-right-color: #cecece; }
+
+div.tabs ul li.tab:first-child div.wrapper { border-right: 0; }
+div.tabs ul li.tab:last-child div.wrapper { border-left: 0; }
+
+.hidden-by-tabs { display: none; }

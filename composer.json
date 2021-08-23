@@ -1,0 +1,26 @@
+{
+  "name": "widget/tabs",
+  "type": "library",
+  "description": "Javascript widget tabs",
+  "keywords": [
+    "ubyte",
+    "client-side",
+    "widget",
+    "tabs"
+  ],
+  "homepage": "https://github.com/energia-source/widget-tabs",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Paolo Fabris",
+      "email": "support@ubyte.it",
+      "homepage": "https://www.ubyte.it/",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Tabs\\": "lib/"
+    }
+  }
+}
