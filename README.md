@@ -38,8 +38,8 @@ document.appendChild(p);
 ## Structure
 
 library:
-    - [window.Tabs](https://github.com/energia-source/widget-tabs#class-windowtabs-usable-methods)
-    - [window.Tabs.Li](https://github.com/energia-source/widget-tabs#class-windowtabsli-usable-methods)
+- [window.Tabs](https://github.com/energia-source/widget-tabs#class-windowtabs-usable-methods)
+- [window.Tabs.Li](https://github.com/energia-source/widget-tabs#class-windowtabsli-usable-methods)
 
 <br>
 
